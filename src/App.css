@@ -1,0 +1,39 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   background-color: #181818;
+}
+
+#root .slick-dots {
+   bottom: -15px;
+}
+
+#root .slick-dots li {
+   width: 10px;
+   height: 10px;
+}
+
+#root .slick-dots li button {
+   width: 10px;
+   height: 10px
+}
+
+#root .slick-dots li button:before {
+   color: #d5ad79;
+   font-size: 10px;
+   line-height: 11px;
+   width: 10px;
+   height: 10px
+}
+
+#root .slick-dots li.slick-active button:before {
+   color: #d5ad79;
+}
+
+#root .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon,
+#root .css-1mf6u8l-MuiSvgIcon-root-MuiSelect-icon {
+   color: #d5ad79
+}
